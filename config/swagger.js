@@ -5,9 +5,9 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Saint Seiya API',
+      title: 'Hunter x Hunter API',
       version: '1.0.0',
-      description: 'API de ejemplo para caballeros del zodiaco',
+      description: 'API de ejemplo para cazadores del universo Hunter x Hunter',
     },
     servers: [
       {
