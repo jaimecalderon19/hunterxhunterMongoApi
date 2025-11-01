@@ -48,19 +48,25 @@ router.get('/cazadores', async (req, res) => {
 router.get('/cazadores/buscar', async (req, res) => {
   const { nombre } = req.query;
 
-  if (!nombre) return res.status(400).json({ error: 'Debes proporcionar un nombre' });
+  if (!nombre)
+    return res.status(400).json({ error: 'Debes proporcionar un nombre' });
 
   try {
-    const cazador = await Cazador.findOne({ nombre: new RegExp(`^${nombre}$`, 'i') });
-    if (cazador) {
-      res.json({ found: true, cazador });
+    // Búsqueda parcial e insensible a mayúsculas
+    const regex = new RegExp(nombre, 'i');
+    const cazadores = await Cazador.find({ nombre: { $regex: regex } });
+
+    if (cazadores.length > 0) {
+      res.json({ found: true, cazadores });
     } else {
       res.json({ found: false, message: 'Cazador no encontrado' });
     }
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: 'Error al buscar el cazador' });
   }
 });
+
 
 /**
  * @swagger
