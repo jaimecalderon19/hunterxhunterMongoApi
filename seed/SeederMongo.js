@@ -7,7 +7,7 @@ const cazadoresIniciales = [
     altura: 154,
     peso: 49,
     genero: 'Masculino',
-    imagen: 'https://example.com/gon.jpg',
+    imagen: 'https://static.wikia.nocookie.net/hunterxhunter/images/3/3e/HxH2011_EP147_Gon_Portrait.png/revision/latest?cb=20230904181801',
     habilidades: ['Jajanken', 'Sentido Agudo', 'Determinación'],
     tipoLicencia: 'Novato'
   },
@@ -17,7 +17,7 @@ const cazadoresIniciales = [
     altura: 158,
     peso: 45,
     genero: 'Masculino',
-    imagen: 'https://example.com/killua.jpg',
+    imagen: 'https://static.wikia.nocookie.net/hunterxhunter/images/f/f1/KilluaSuperZetsu.png/revision/latest/scale-to-width-down/732?cb=20140323022118&path-prefix=es',
     habilidades: ['Electricidad', 'Velocidad Extrema', 'Asesinato Silencioso'],
     tipoLicencia: 'Novato'
   },
@@ -27,7 +27,7 @@ const cazadoresIniciales = [
     altura: 171,
     peso: 59,
     genero: 'Masculino',
-    imagen: 'https://example.com/kurapika.jpg',
+    imagen: 'https://wallpapers.com/images/hd/serious-and-solemn-kurapika-hxh-pfp-454uuie77rq43h7a.jpg',
     habilidades: ['Cadenas del Juicio', 'Ojos Escarlata', 'Intelecto Superior'],
     tipoLicencia: 'Single Star'
   },
@@ -37,7 +37,7 @@ const cazadoresIniciales = [
     altura: 193,
     peso: 85,
     genero: 'Masculino',
-    imagen: 'https://example.com/leorio.jpg',
+    imagen: 'https://static.wikia.nocookie.net/universecw/images/8/8d/LeorioParadinight0.JPG/revision/latest?cb=20201121092427&path-prefix=es',
     habilidades: ['Golpe del Portal', 'Medicina', 'Carisma'],
     tipoLicencia: 'Single Star'
   },
@@ -47,7 +47,7 @@ const cazadoresIniciales = [
     altura: 187,
     peso: 91,
     genero: 'Masculino',
-    imagen: 'https://example.com/hisoka.jpg',
+    imagen: 'https://static.wikia.nocookie.net/hunterxhunter/images/2/29/Hisoka_Morow_YC_Portrait.png/revision/latest?cb=20190123172039',
     habilidades: ['Bungee Gum', 'Textura Engañosa', 'Manipulación Nen'],
     tipoLicencia: 'Double Star'
   },
@@ -57,7 +57,7 @@ const cazadoresIniciales = [
     altura: 160,
     peso: 58,
     genero: 'Masculino',
-    imagen: 'https://example.com/netero.jpg',
+    imagen: 'https://static.wikia.nocookie.net/hunterxhunter/images/8/88/Isaac_Netero_HE_Portrait.png/revision/latest?cb=20230314041500',
     habilidades: ['Guanyin Bodhisattva', 'Nen de Velocidad Extrema', 'Aura Explosiva'],
     tipoLicencia: 'Triple Star'
   }
