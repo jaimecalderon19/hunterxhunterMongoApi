@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
-const caballerosRoutes = require('./routes/caballeros.routes');
-const seedCaballeros = require('./seed/caballerosSeeder');
+const cazadoresRoutes = require('./routes/cazadores.routes');
+const seedCaballeros = require('./seed/SeederMongo');
 const swaggerDocs = require('./config/swagger');
 
 const app = express();
@@ -21,7 +21,7 @@ app.use(express.json());
 swaggerDocs(app);
 
 // Rutas
-app.use('/api', caballerosRoutes);
+app.use('/api', cazadoresRoutes);
 
 // Servidor
 app.listen(PORT, () => {
